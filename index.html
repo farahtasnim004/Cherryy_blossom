@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pawfect Home | Pet Adoption</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">
+                🐾 Pawfect Home
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNav">
+
+                <ul class="navbar-nav mx-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pets">Available Pets</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#how-it-works">
+                            How It Works
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#stories">
+                            Stories
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">
+                            About Us
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="adopt.html">
+                            Adopt
+                        </a>
+                    </li>
+
+                </ul>
+
+                <!-- LOGIN + DONATION -->
+
+                <div class="nav-buttons">
+                    <button class="btn login-btn" data-bs-toggle="modal" data-bs-target="#loginModal">
+                        <i class="bi bi-person-circle"></i>
+                        Login
+                    </button>
+                    <a href="donation.html" class="btn donation-btn">
+                        <i class="bi bi-heart-fill"></i>
+                        Donation
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero" id="home">
+
+        <div class="container">
+
+            <div class="row align-items-center g-5">
+
+                <div class="col-lg-6">
+
+                    <p class="small-title">
+                        Rescued. Loved. Ready for you.
+                    </p>
+
+                    <h1>
+                        Give a Loving Pet a
+                        <span>Forever Home</span>
+                    </h1>
+
+                    <p class="hero-text">
+                        Pawfect Home connects loving families with
+                        rescued animals who are waiting for a second chance.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#pets" class="btn main-btn">
+                            Find Your Companion
+                        </a>
+
+                        <a href="#how-it-works" class="btn second-btn">
+
+                            How It Works
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-6">
+
+                    <img src="allpet.png" alt="Dog waiting for adoption" class="hero-img">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= AVAILABLE PETS ================= -->
+
+    <section class="section" id="pets">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <p>Meet our friends</p>
+
+                <h2>Available Pets</h2>
+
+                <p class="section-description">
+                    These lovely animals are waiting for a caring family.
+                </p>
+
+            </div>
+
+
+            <div class="row g-4">
+
+                <!-- PET 1 -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="pet-card">
+
+                        <img src="https://i.pinimg.com/736x/8a/4c/a0/8a4ca07556379090bb76182f595cdd84.jpg"
+                            alt="Buddy the dog">
+
+                        <div class="pet-info">
+
+                            <h3>Buddy</h3>
+
+                            <p class="pet-details">
+                                Labrador · Male · 2 years
+                            </p>
+
+                            <p>
+                                <strong>City:</strong> Chattogram
+                            </p>
+
+                            <p>
+                                <strong>Available since:</strong> March
+                            </p>
+
+                            <p>
+                                Friendly and playful. Buddy loves
+                                people and enjoys outdoor activities.
+                            </p>
+
+                            <a href="adopt.html" class="btn main-btn">
+
+                                Adopt
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PET 2 -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="pet-card">
+
+                        <img src="https://loremflickr.com/500/350/cat?lock=12" alt="Luna the cat">
+
+                        <div class="pet-info">
+
+                            <h3>Luna</h3>
+
+                            <p class="pet-details">
+                                Domestic Cat · Female · 1 year
+                            </p>
+
+                            <p>
+                                <strong>City:</strong> Dhaka
+                            </p>
+
+                            <p>
+                                <strong>Available since:</strong> April
+                            </p>
+
+                            <p>
+                                Calm and affectionate. Luna loves
+                                quiet places and gentle attention.
+                            </p>
+
+                            <a href="adopt.html" class="btn main-btn">
+
+                                Adopt
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PET 3 -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="pet-card">
+
+                        <img src="https://i.pinimg.com/736x/7e/fd/9a/7efd9a2271c517ae7624f3982e4ab355.jpg"
+                            alt="Coco the rabbit">
+
+                        <div class="pet-info">
+
+                            <h3>Coco</h3>
+
+                            <p class="pet-details">
+                                Rabbit · Female · 1 year
+                            </p>
+
+                            <p>
+                                <strong>City:</strong> Chattogram
+                            </p>
+
+                            <p>
+                                <strong>Available since:</strong> February
+                            </p>
+
+                            <p>
+                                Gentle and curious. Coco would love
+                                a peaceful and caring home.
+                            </p>
+
+                            <a href="adopt.html" class="btn main-btn">
+
+                                Adopt
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PET 4 -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="pet-card">
+
+                        <img src="https://cdn-prd.content.metamorphosis.com/wp-content/uploads/sites/2/2021/01/shutterstock_699574546-1-600x404.jpg"
+                            alt="Max the dog">
+
+                        <div class="pet-info">
+
+                            <h3>Max</h3>
+
+                            <p class="pet-details">
+                                Beagle · Male · 3 years
+                            </p>
+
+                            <p>
+                                <strong>City:</strong> Sylhet
+                            </p>
+
+                            <p>
+                                <strong>Available since:</strong> January
+                            </p>
+
+                            <p>
+                                Energetic and loyal. Max enjoys
+                                playing and spending time with people.
+                            </p>
+
+                            <a href="adopt.html" class="btn main-btn">
+
+                                Adopt Max
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PET 5 -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="pet-card">
+
+                        <img src="https://loremflickr.com/500/350/cat?lock=15" alt="Milo the cat">
+
+                        <div class="pet-info">
+
+                            <h3>Milo</h3>
+
+                            <p class="pet-details">
+                                Persian Cat · Male · 2 years
+                            </p>
+
+                            <p>
+                                <strong>City:</strong> Dhaka
+                            </p>
+
+                            <p>
+                                <strong>Available since:</strong> May
+                            </p>
+
+                            <p>
+                                Sweet and relaxed. Milo enjoys
+                                naps, cuddles and peaceful homes.
+                            </p>
+
+                            <a href="adopt.html" class="btn main-btn">
+
+                                Adopt Milo
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PET 6 -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="pet-card">
+
+                        <img src="https://loremflickr.com/500/350/dog?lock=16" alt="Rocky the dog">
+
+                        <div class="pet-info">
+
+                            <h3>Rocky</h3>
+
+                            <p class="pet-details">
+                                Golden Retriever · Male · 4 years
+                            </p>
+
+                            <p>
+                                <strong>City:</strong> Khulna
+                            </p>
+
+                            <p>
+                                <strong>Available since:</strong> June
+                            </p>
+
+                            <p>
+                                Loving and gentle. Rocky gets along
+                                well with families.
+                            </p>
+
+                            <a href="adopt.html" class="btn main-btn">
+
+                                Adopt Rocky
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= HOW IT WORKS ================= -->
+
+    <section class="section light-section" id="how-it-works">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <p>Three simple steps</p>
+
+                <h2>How It Works</h2>
+
+            </div>
+
+
+            <div class="row g-4">
+
+                <div class="col-md-4">
+
+                    <div class="step-card">
+
+                        <div class="step-number">1</div>
+
+                        <i class="bi bi-search-heart"></i>
+
+                        <h3>Find a Pet</h3>
+
+                        <p>
+                            Browse our rescued pets and find
+                            a companion that feels right for you.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-md-4">
+
+                    <div class="step-card">
+
+                        <div class="step-number">2</div>
+
+                        <i class="bi bi-people"></i>
+
+                        <h3>Meet the Pet</h3>
+
+                        <p>
+                            Learn about the pet and spend some
+                            time getting to know them.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-md-4">
+
+                    <div class="step-card">
+
+                        <div class="step-number">3</div>
+
+                        <i class="bi bi-house-heart"></i>
+
+                        <h3>Give Them a Home</h3>
+
+                        <p>
+                            Complete the application and
+                            welcome your new friend home.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= STORIES ================= -->
+
+    <section class="section" id="stories">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <p>Happy tails</p>
+
+                <h2>Success Stories</h2>
+
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-md-4">
+
+                    <div class="story-card">
+
+                        <img src="https://img.freepik.com/premium-photo/ginger-cat-sleeps-funny-pose-baby-cat-sleeping-bed_406597-2576.jpg"
+                            alt="Max the dog">
+
+                        <div class="story-body">
+
+                            <h3>Max Found His Family</h3>
+
+                            <p>
+                                Max was rescued and cared for by
+                                our volunteers. He found a loving
+                                family after two months at the shelter.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="story-card">
+
+                        <img src="https://loremflickr.com/500/350/cat?lock=22" alt="Whiskers the cat">
+
+                        <div class="story-body">
+
+                            <h3>Whiskers Found a Home</h3>
+
+                            <p>
+                                Whiskers was shy around strangers.
+                                With patience and care, she found
+                                a family who understood her.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="story-card">
+
+                        <img src="https://m.media-amazon.com/images/I/81xbOFs7u4L._AC_SL1500_.jpg"
+                            alt="Peanut the rabbit">
+
+                        <div class="story-body">
+
+                            <h3>Peanut's New Beginning</h3>
+
+                            <p>
+                                Peanut was looking for a new home
+                                and now lives happily with a caring
+                                family in Khulna.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="section light-section" id="about">
+
+        <div class="container">
+
+            <div class="row align-items-center g-5">
+
+                <div class="col-lg-6">
+
+                    <img src="https://paws.org.ph/wp-content/uploads/2022/06/Dog-Volunteers.jpg"
+                        alt="Volunteer with a dog" class="about-img">
+
+                </div>
+
+                <div class="col-lg-6">
+
+                    <p class="small-title">
+                        Who we are
+                    </p>
+
+                    <h2>
+                        A Small Team With a Big Promise
+                    </h2>
+
+                    <p>
+                        Pawfect Home is a community-run shelter
+                        dedicated to rescuing abandoned animals,
+                        giving them proper care and finding them
+                        loving families.
+                    </p>
+
+                    <p>
+                        We believe every animal deserves safety,
+                        kindness and a forever home.
+                    </p>
+
+                    <div class="about-stats">
+
+                        <div>
+                            <strong>2400+</strong>
+                            <span>Pets Adopted</span>
+                        </div>
+
+                        <div>
+                            <strong>1150+</strong>
+                            <span>Pets Rescued</span>
+                        </div>
+
+                        <div>
+                            <strong>320+</strong>
+                            <span>Volunteers</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer id="contact">
+
+        <div class="container">
+
+            <div class="row g-5">
+
+                <div class="col-md-6">
+
+                    <h3>🐾 Pawfect Home</h3>
+
+                    <p>
+                        Helping rescued animals find loving
+                        forever homes.
+                    </p>
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <h4>Contact Us</h4>
+
+                    <p>
+                        <i class="bi bi-geo-alt-fill"></i>
+                        Agrabad, Chattogram, Bangladesh
+                    </p>
+
+                    <p>
+                        <i class="bi bi-telephone-fill"></i>
+                        +880 1XXX-XXXXXX
+                    </p>
+
+                    <p>
+                        <i class="bi bi-envelope-fill"></i>
+                        hello@pawfecthome.org
+                    </p>
+
+                </div>
+    </footer>
+
+
+    <!-- ================= LOGIN MODAL ================= -->
+
+    <div class="modal fade" id="loginModal" tabindex="-1">
+
+        <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">
+                        Welcome Back
+                    </h5>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    <form id="loginForm">
+
+                        <label class="form-label">
+                            Email
+                        </label>
+
+                        <input type="email" id="loginEmail" class="form-control mb-3" required>
+
+
+                        <label class="form-label">
+                            Password
+                        </label>
+
+                        <input type="password" id="loginPassword" class="form-control mb-3" required>
+
+
+                        <button type="submit" class="btn main-btn w-100">
+
+                            Log In
+
+                        </button>
+
+                    </form>
+
+                    <p id="loginMessage" class="form-message">
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Bootstrap JavaScript -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+    <!-- Our JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

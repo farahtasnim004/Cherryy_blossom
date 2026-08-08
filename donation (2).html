@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Donation | Pawfect Home</title>
+
+    <!-- Bootstrap -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-expand-lg fixed-top">
+
+    <div class="container">
+
+        <a
+            class="navbar-brand"
+            href="index.html">
+
+            🐾 Pawfect Home
+
+        </a>
+
+
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNav">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+
+        <div
+            class="collapse navbar-collapse"
+            id="mainNav">
+
+            <ul class="navbar-nav mx-auto">
+
+                <li class="nav-item">
+                    <a
+                        class="nav-link"
+                        href="index.html">
+
+                        Home
+
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a
+                        class="nav-link"
+                        href="index.html#pets">
+
+                        Available Pets
+
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a
+                        class="nav-link"
+                        href="index.html#stories">
+
+                        Stories
+
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a
+                        class="nav-link"
+                        href="index.html#about">
+
+                        About Us
+
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a
+                        class="nav-link"
+                        href="adopt.html">
+
+                        Adopt
+
+                    </a>
+                </li>
+
+            </ul>
+
+
+            <div class="nav-buttons">
+
+                <a
+                    href="index.html"
+                    class="btn login-btn">
+
+                    <i class="bi bi-person-circle"></i>
+                    Login
+
+                </a>
+
+                <a
+                    href="donation.html"
+                    class="btn donation-btn">
+
+                    <i class="bi bi-heart-fill"></i>
+                    Donation
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+<!-- PAGE HEADER -->
+
+<section class="page-header">
+
+    <div class="container">
+
+        <h1>Support Our Animals</h1>
+
+        <p>
+            Your support helps rescued animals receive
+            food, shelter and medical care.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- DONATION -->
+
+<section class="section">
+
+    <div class="container">
+
+        <div class="row align-items-center g-5">
+
+            <div class="col-lg-6">
+
+                <img
+                    src="https://loremflickr.com/700/500/cat,shelter?lock=40"
+                    class="about-img"
+                    alt="Shelter cat">
+
+            </div>
+
+
+            <div class="col-lg-6">
+
+                <div class="donation-box">
+
+                    <div class="donation-icon">
+                        <i class="bi bi-heart-fill"></i>
+                    </div>
+
+                    <h2>
+                        Make a Difference
+                    </h2>
+
+                    <p>
+                        Every donation helps us provide
+                        food, vaccinations and care to
+                        animals waiting for their forever homes.
+                    </p>
+
+
+                    <form id="donationForm">
+
+                        <label>
+                            Full Name
+                        </label>
+
+                        <input
+                            type="text"
+                            class="form-control mb-3"
+                            required>
+
+
+                        <label>
+                            Email
+                        </label>
+
+                        <input
+                            type="email"
+                            class="form-control mb-3"
+                            required>
+
+
+                        <label>
+                            Donation Amount (BDT)
+                        </label>
+
+                        <input
+                            type="number"
+                            class="form-control mb-3"
+                            placeholder="e.g. 1000"
+                            min="1"
+                            required>
+
+
+                        <button
+                            type="submit"
+                            class="btn main-btn">
+
+                            Donate Now
+
+                        </button>
+
+
+                        <p
+                            id="donationMessage"
+                            class="form-message">
+                        </p>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-6">
+
+                <h3>🐾 Pawfect Home</h3>
+
+                <p>
+                    Helping rescued animals find
+                    loving forever homes.
+                </p>
+
+            </div>
+
+
+            <div class="col-md-6">
+
+                <h4>Contact</h4>
+
+                <p>
+                    Chattogram, Bangladesh
+                </p>
+
+                <p>
+                    hello@pawfecthome.org
+                </p>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <p class="text-center">
+            © 2026 Pawfect Home · Student Project
+        </p>
+
+    </div>
+
+</footer>
+
+
+<!-- Bootstrap JS -->
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
